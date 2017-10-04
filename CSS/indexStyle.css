@@ -15,7 +15,7 @@
 
 a {
   text-decoration: none;
-  color: #EFFFF2;
+  color: white;
 }
 
  body {
@@ -81,22 +81,33 @@ nav {
   list-style-type: none;
   position: fixed;
   width: 100%;
+  background-color: rgba(0,0,0,0.8);
+  box-shadow: 0px -12px 15px 21px rgba(0,0,0,0.75);
 }
 
 .header-menu li{
-  padding: 2em 2em;
+  margin: 2em 2em;
+  font-weight: 300;
+  font-size: 1.1em;
+}
+
+.header-menu li:hover {
+  text-shadow: 0.5px 0.5px 5px white, -0.5px -0.5px 5px white;
+  border-bottom: 1px solid white;
 }
 
 .main-title {
   text-align: center;
-  color: #EFFFF2;
+  padding-top: 5em;
+  color: white;
 }
 
 .main-title h1 {
   padding-bottom: 0;
+  font-family: indianFont;
   margin-bottom: 0;
   font-size: 5em;
-  text-shadow: 2px 2px 5px #000, -2px -2px 5px #000;
+  text-shadow: 1px 1px 2px #fff, -1px -1px 2px #fff;
 }
 
 .main-title span {
@@ -104,7 +115,7 @@ nav {
 }
 
 .arrow-down {
-  color: #EFFFF2;
+  color: white;
   font-size: 3em;
 }
 
@@ -113,7 +124,7 @@ nav {
 }
 
 #logo {
-  padding: 0.5em 2em !important;
+  margin: 0.5em 2em !important;
 }
 
 /* ---------------------
@@ -123,43 +134,48 @@ nav {
 .section-commandez {
   display: flex;
   height: 100vh;
-  width: 80%;
-  margin: auto;
-  padding: 5em 0;
-  align-items: center;
 }
 
-.photo-commandez,
-.text-commandez {
-  flex-flow: 1;
-  flex-basis: 50%;
-  margin: 2em 2em;
+.section1 {
+  flex: 1 50%;
 }
 
-.text-commandez {
+.texte1 {
+  margin: 9em 4em 7em 12em;
+  padding: 5em 2em;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 4em 0;
 }
-
-.text-commandez * {
-  line-height: 2em;
-  font-size: 1.1em;
-  padding: 1em 0;
+.texte1 h4{
   font-weight: 300;
-  margin: 0;
-  padding: 0;
+}
+.texte1 h2 {
+  padding: 1em 0 1em;
+  font-size: 2.5em;
+  font-weight: 300;
 }
 
-.text-commandez h2 {
-  font-size: 1.5em;
-  font-weight: 400;
+.texte1 p{
+  flex-basis: 50%;
+  font-weight: 300;
+  line-height: 1.5em;
+  font-size: 1.3em;
 }
 
-#cmd-section-btn {
-  padding: 1em 2em;
-  border: 1px solid #FFA500;
+.photo1 {
+  background: url("../Images/Drone/drone1.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 12em 7em 7em 4em;
+  box-shadow: 0px 0px 109px 26px rgba(0,0,0,0.75);
+  border-radius: 5px;
+}
+
+.cmd-section-btn {
+  padding: 1em 3em;
   background-color: #FFA500;
+  align-self: flex-start;
   border-radius: 4px;
 }
