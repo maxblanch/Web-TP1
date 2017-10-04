@@ -2,31 +2,57 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Titre du restaurant</title>
+    <title>Taj Wallace</title>
     <meta name="description" content="Restaurant Indien - Commande en ligne - Créé par Mathieu Renaud et Maxime Blanchard">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://cdn.iconmonstr.com/1.2.0/css/iconmonstr-iconic-font.min.css">
     <link rel="stylesheet" type="text/css" href="CSS/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="CSS/indexStyle.css">
 </head>
 
 <body>
-    <div class="background">
-        <div class="menu">
-            <ul>
-                <li>Les Plats</li>
-                <li>Commandez</li>
-                <li>Témoignages</li>
-                <li>Carrière</li>
-                <li>Trick CSS</li>
-                <li>Nous Rejoindre</li>
-            </ul>
-        </div>
-        <div class="main-title">
-            <h1 id="main-title">Taj Wallace</h1>
-        </div>
+  <div class="container">
+    <div class="header">
+      <nav>
+        <ul class="header-menu">
+          <li><a href="#">Les plats</a></li>
+          <li><a href="#">Commandez</a></li>
+          <li><a href="#">Nous rejoindre</a></li>
+          <li id="logo"><a href="#"><img class="main-logo"  src="Images/Icon/Taj-Mahal-Transparent-PNG.png"></a></li>
+          <li><a href="#">Trick CSS</a></li>
+          <li><a href="#">Témoignages</a></li>
+          <li><a href="#">Carrière</a></li>
+        </ul>
+      </nav>
+      <div class="main-title">
+        <h1>Taj Wallace</h1>
+        <span>L'authentique cuisine indienne - Livré par drones</span>
+      </div>
+      <div class="button-menu">
+        <span class="btn btn-solid"><a href="#">Commandez</a></span>
+        <span id="clear-bg" class="btn"><a href="#" class="btn-clear">Voir menu</a></span>
+      </div>
+      <div class="down-arrow">
+        <span><a href="#"><i class="im im-angle-down arrow-down"></i></a></span>
+      </div>
     </div>
+  </div>
 
+  <!-- Deuxième section - Commandes -->
+
+  <section class="section-commandez">
+    <div class="text-commandez">
+      <h4>La cuisine indienne, par voie aérienne</h4>
+      <h2>Commandez - Recevez - Dégustez</h2>
+      <p>Fondé en 2017, Taj Wallace devient le premier restaurant indien à livrer à l'aide de drones, la plus délicieuse nourriture dans tout le continent. De plus, vous recevez votre commande dans un délai maximum de trente minutes garanti, ou argent remis.</p>
+      <span class="cmd-section-btn">
+        <a id="cmd-section-btn" href="#">Commandez</a>
+      </span>
+    </div>
+    <div class="photo-commandez">
+    </div>
+  </section>
 
 </body>
 </html>

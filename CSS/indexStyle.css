@@ -5,6 +5,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 @font-face {
@@ -12,51 +13,153 @@
     src: url(fonts/TheNewGanesha45.ttf);
 }
 
-body {
-    color: white;
-    height: 100vh;
-    position: relative;
-    font-family: 'Lato', sans-serif;
+a {
+  text-decoration: none;
+  color: #EFFFF2;
 }
+
+ body {
+   font-family: lato;
+   display:grid;
+   grid-template-rows: 1fr 1fr;
+ }
+
+ .btn-solid {
+   background-color: #FFA500;
+ }
+
+ .btn-clear {
+   color: #FFA500;
+ }
+
+ #clear-bg {
+   background-color: rgba(0, 0, 0, 0.4);
+ }
+
+ .btn {
+   flex-grow: 1;
+   padding: 1em 2em;
+   margin: 0 5px;
+   border: 1px solid #FFA500;
+   border-radius: 4px;
+ }
+
+ .button-menu {
+   display: flex;
+   justify-content: center;
+   width: 35%;
+   text-align: center;
+ }
 
 /* ---------------------
----------Menu-----------
+---------Header---------
 ----------------------*/
 
-ul li {
-    display: inline-block;
-    padding: 2em 1em;
-    list-style-type: none;
+.header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4) ), url(../Images/Food/food1.jpeg);
+  background-position: center;
+  background-size: cover;
 }
 
-.menu {
-    display: inline-block;
-    width: 100%;
+nav {
+  width: 100%;
 }
 
-ul {
-    text-align: center;
+.main-logo {
+  max-width: 100px;
 }
 
-.background {
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url(../Images/Food/food1.jpeg);
-    background-size: cover;
-    position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  position: fixed;
+  width: 100%;
+}
+
+.header-menu li{
+  padding: 2em 2em;
 }
 
 .main-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 70%;
+  text-align: center;
+  color: #EFFFF2;
 }
 
-#main-title {
-    font-size: 5em;
-    font-family: indianFont;
+.main-title h1 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 5em;
+  text-shadow: 2px 2px 5px #000, -2px -2px 5px #000;
+}
+
+.main-title span {
+  font-size: 2em;
+}
+
+.arrow-down {
+  color: #EFFFF2;
+  font-size: 3em;
+}
+
+.down-arrow {
+  margin-bottom: 1em;
+}
+
+#logo {
+  padding: 0.5em 2em !important;
+}
+
+/* ---------------------
+-------Commandes--------
+----------------------*/
+
+.section-commandez {
+  display: flex;
+  height: 100vh;
+  width: 80%;
+  margin: auto;
+  padding: 5em 0;
+  align-items: center;
+}
+
+.photo-commandez,
+.text-commandez {
+  flex-flow: 1;
+  flex-basis: 50%;
+  margin: 2em 2em;
+}
+
+.text-commandez {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4em 0;
+}
+
+.text-commandez * {
+  line-height: 2em;
+  font-size: 1.1em;
+  padding: 1em 0;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+.text-commandez h2 {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+#cmd-section-btn {
+  padding: 1em 2em;
+  border: 1px solid #FFA500;
+  background-color: #FFA500;
+  border-radius: 4px;
 }
