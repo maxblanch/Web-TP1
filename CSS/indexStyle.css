@@ -22,6 +22,10 @@ a {
    font-family: lato;
    display:grid;
    grid-template-rows: 1fr 1fr;
+   background-color: yellow;
+   width: 100%;
+   height: 100%;
+   z-index: 1;
  }
 
  .btn-solid {
@@ -64,6 +68,7 @@ a {
   background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4) ), url(../Images/Food/food1.jpeg);
   background-position: center;
   background-size: cover;
+  box-shadow: 0px -12px 15px 21px rgba(0,0,0,0.75);
 }
 
 nav {
@@ -178,4 +183,156 @@ nav {
   background-color: #FFA500;
   align-self: flex-start;
   border-radius: 4px;
+}
+
+/* ---------------------
+-------Gallerie---------
+----------------------*/
+
+.setion-gallerie {
+  height: 100vh;
+}
+
+.wrapper {
+  text-align: center;
+  width: 80%;
+  margin: 10em auto 0;
+}
+
+.gallerie-titre {
+  color: #1C1C1C;
+  font-weight: 300;
+  font-size: 3em;
+  border-bottom: 1px solid #1C1C1C;
+  display: inline-block;
+  margin: 0;
+}
+
+.gallerie-soustitre {
+  color: #1C1C1C;
+  font-weight: 300;
+  margin-top: 2em;
+}
+
+.gallerie {
+  margin-top: 3em;
+  height: 50%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.image1 {
+  max-width: 100%;
+  min-height: 100%
+}
+
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.2);
+}
+
+.voirmenu-btn {
+  margin: 3em 0 0 0;
+  padding: 1em 5em;
+  background-color: #FFA500;
+  border-radius: 4px;
+  display: inline-block;
+  color: #1C1C1C;
+  font-weight: 400;
+  color: white;
+}
+
+/* ---------------------
+-------Équipe-----------
+----------------------*/
+
+.equipe-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 2em auto 0;
+  grid-gap: 0.5em;
+}
+
+.equipe1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.equipe2 {
+  flex-direction: row-reverse;
+}
+
+.up-left-box {
+  border-bottom: 1px solid #1C1C1C;
+  border-right: 1px solid #1C1C1C;
+}
+
+.up-right-box {
+  border-bottom: 1px solid #1C1C1C;
+  border-left: 1px solid #1C1C1C;
+}
+
+.down-left-box {
+  border-top: 1px solid #1C1C1C;
+  border-right: 1px solid #1C1C1C;
+}
+
+.down-right-box {
+  border-top: 1px solid #1C1C1C;
+  border-left: 1px solid #1C1C1C;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2em;
+  flex: 1 75%;
+}
+
+.photo {
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 1em;
+}
+
+.wallace {
+  width: 100%;
+  height: 100%;
+}
+
+/* ---------------------
+-------Footer-----------
+----------------------*/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #333333;
+  height: 400px;
+  width: 100%;
+  bottom: 0;
+  z-index: -999;
+}
+
+.bottom-menu {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  width: 60%;
+}
+
+.bottom-menu li{
+  margin: 0 0.5em;
+  font-size: 0.75em
 }
