@@ -2,15 +2,133 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Titre du restaurant</title>
+    <title>Taj Wallace</title>
     <meta name="description" content="Restaurant Indien - Commande en ligne - Créé par Mathieu Renaud et Maxime Blanchard">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://cdn.iconmonstr.com/1.2.0/css/iconmonstr-iconic-font.min.css">
     <link rel="stylesheet" type="text/css" href="CSS/normalize.css">
-    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="CSS/indexStyle.css">
 </head>
 <body>
+  <div class="container">
+    <div class="header">
+      <nav>
+        <ul class="header-menu">
+          <li><a href="#">Les plats</a></li>
+          <li><a href="#">Commandez</a></li>
+          <li><a href="#">Nous rejoindre</a></li>
+          <li id="logo"><a href="#"><img class="main-logo"  src="Images/Icon/Taj-Mahal-Transparent-PNG.png"></a></li>
+          <li><a href="#">Trick CSS</a></li>
+          <li><a href="#">Témoignages</a></li>
+          <li><a href="#">Carrière</a></li>
+        </ul>
+      </nav>
+      <div class="main-title">
+        <h1>Taj Wallace</h1>
+        <span>L'authentique cuisine indienne - Livré par drones</span>
+      </div>
+      <div class="button-menu">
+        <span class="btn btn-solid"><a href="#">Commandez</a></span>
+        <span id="clear-bg" class="btn"><a href="#" class="btn-clear">Voir menu</a></span>
+      </div>
+      <div class="down-arrow">
+        <span><a href="#"><i class="im im-angle-down arrow-down"></i></a></span>
+      </div>
+    </div>
+  </div>
 
+<!-- Première Section - Commandes --------------------------->
+  <section class="section-commandez">
+    <div class="section1 texte1">
+      <h4><em>La cuisine indienne, par voie aérienne</em></h4>
+      <h2>- Commandez<br>- Recevez<br>- Dégustez</h2>
+      <p>Fondé en 2017, Taj Wallace devient le premier restaurant indien à livrer à l'aide de drones, la plus délicieuse nourriture dans tout le continent. De plus, vous recevez votre commande dans un délai maximum de trente minutes garanti, ou argent remis.</p>
+      <span class="cmd-section-btn">
+        <a id="cmd-section-btn" href="#">Commandez</a>
+      </span>
+    </div>
+    <div class="section1 photo1">
+    </div>
+  </section>
 
+    <!-- Deuxième section - Gallerie Photos ------------------->
+  <section class="setion-gallerie">
+    <div class="wrapper">
+      <h1 class="gallerie-titre">Notre Cuisine</h1>
+      <h3 class="gallerie-soustitre">Découvrez les saveurs de l'Inde préparé avec amour par le chef Wallace</h3>
+      <div class="gallerie">
+        <img src="Images/Food/food3.jpg" alt="" class="image1 grow">
+        <img src="Images/Food/food4.jpeg" alt="" class="image1 grow">
+        <img src="Images/Food/food5.jpeg" alt="" class="image1 grow">
+        <img src="Images/Food/food6.jpeg" alt="" class="image1 grow">
+        <img src="Images/Food/food7.jpeg" alt="" class="image1 grow">
+        <img src="Images/Food/food8.jpeg" alt="" class="image1 grow">
+        <img src="Images/Food/prawn-biryani.jpg" alt="" class="image1 grow">
+        <img src="Images/Food/seekh-kebab-sawadee.jpg" alt="" class="image1 grow">
+      </div>
+      <div class="voirmenu-btn">Voir le Menu</div>
+    </div>
+  </section>
 
+<!-- Troisième section - L'équipe -------------------------->
+  <section class="setion-gallerie">
+    <div class="wrapper">
+      <h1 class="gallerie-titre">Notre Équipe</h1>
+      <h3 class="gallerie-soustitre">Chez Taj Wallace, c'est d'abord le travail d'équipe, puis les clients.</h3>
+      <div class="equipe-grid">
+        <div class="equipe1 up-left-box">
+          <div class="content">
+            <h3>Wallace Sinatra</h3>
+            <h4>Président et fondateur de Taj Wallace.</h4>
+            <p>Sa passion, c'est l'Inde, et les drones.</p>
+          </div>
+          <div class="photo"><img src="Images/People/AdobeStock_44220713.jpeg" class=" wallace">
+          </div>
+        </div>
+        <div class="equipe2 equipe1 up-right-box">
+          <div class="content">
+            <h3>Lopamudra Kanika</h3>
+            <h4>Femme de ménage</h4>
+            <p>Elle se fait battre par Wallace, malheureusement.</p>
+          </div>
+          <div class="photo"><img src="Images/People/AdobeStock_80507217.jpeg" class=" wallace">
+          </div>
+        </div>
+        <div class="equipe1 down-left-box">
+          <div class="content">
+            <h3>Mathieu Renaud</h3>
+            <h4>Stagiare</h4>
+            <p>Mathieu a toujours eu Wallace comme idole dans sa vie. Enfin, il réalise son rêve et devienet stagiare chez Taj Wallace.</p>
+          </div>
+          <div class="photo"><img src="Images/People/mat-photo.jpg" class=" wallace">
+          </div>
+        </div>
+        <div class="equipe2 equipe1 down-right-box">
+          <div class="content">
+            <h3>Maxime Blanchard</h3>
+            <h4>Stagiare</h4>
+            <p>Ne sachant plus trop quoi faire de sa vie, Maxime décide d'entreprendre une carrière en cuisine hindi.</p>
+          </div>
+          <div class="photo"><img src="Images/People/max-photo.jpg" class=" wallace">
+          </div>
+        </div>
+      </div>
+      <div class="voirmenu-btn">Carrières</div>
+    </div>
+  </section>
+
+<!-- Footer ------------------------------------------>
+  <footer>
+    <a href="#"><img class="main-logo"  src="Images/Icon/Taj-Mahal-Transparent-PNG.png"></a>
+    <ul class="bottom-menu">
+      <li><a href="#">Les plats</a></li>
+      <li><a href="#">Commandez</a></li>
+      <li><a href="#">Nous rejoindre</a></li>
+      <li><a href="#">Trick CSS</a></li>
+      <li><a href="#">Témoignages</a></li>
+      <li><a href="#">Carrière</a></li>
+    </ul>
+  </footer>
 </body>
 </html>
