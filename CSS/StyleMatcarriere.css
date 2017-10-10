@@ -1,0 +1,94 @@
+/* ---------------------
+-----General Rules -----
+----------------------*/
+
+* {
+  
+    margin:0;
+	padding:0;
+    box-sizing: border-box;
+	
+	
+	
+	
+}
+
+@font-face{
+	font-family:kaushan;
+	src: url(fonts/KaushanScript-Regular.ttf);
+	
+
+	
+}
+
+@font-face{
+	font-family:Lato;
+	src:url(fonts/Lato-Regular.ttf);
+}
+
+body{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	
+	
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* ---------------------
+-----Header -----
+----------------------*/
+
+
+.header {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background:url(../Images/Food/menuheader2.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px -12px 15px 21px rgba(0,0,0,0.75);
+  
+}
+
+nav {
+  width: 100%;
+}
+
+.main-logo {
+  max-width: 100px;
+}
+
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0,0,0,0.8);
+  box-shadow: 0px -12px 15px 21px rgba(0,0,0,0.75);
+}
+
+.header-menu li{
+  margin: 2em 2em;
+  font-weight: lighter;
+  font-size: 1.1em;
+  font-family:lato !important;
+}
+
+.header-menu li:hover {
+  text-shadow: 0.5px 0.5px 5px white, -0.5px -0.5px 5px white;
+  border-bottom: 1px solid white;
+}
+
+#logo {
+  margin: 0.5em 2em !important;
+}
