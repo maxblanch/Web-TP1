@@ -1,0 +1,142 @@
+/* ---------------------
+-----General Rules -----
+----------------------*/
+
+* {
+  
+   
+    box-sizing: border-box;
+	
+}
+
+@font-face{
+	font-family:kaushan;
+	src: url(fonts/KaushanScript-Regular.ttf);
+}
+
+
+
+
+.imgcontainer{
+	
+	background-color:red;
+	height:430px;
+	width:100%;
+	background:url(../Images/Food/menuheader2.jpg);
+	background-size:cover;
+	box-shadow: 0px -12px 15px 21px rgba(0,0,0,0.75);
+	margin-top:0;
+}
+
+ul{
+	margin-top:70px;
+	text-align:center;
+}
+
+li{
+	list-style: none;
+	display:inline;
+	margin-right:50px;
+	
+	
+}
+
+Li a{
+	text-decoration:none;
+	color:white;
+	padding:40px 80px;
+	background-color:#FFA500;
+	margin-top: 30px;
+	border-radius:2em;
+	
+}
+
+h1{
+	font-size:5em;
+	margin-top:100px;
+	text-align:center;
+	font-family:kaushan;
+}
+
+div.tableauentrees{
+	background-color:rgba(15,191,44,0.8);
+	width:80%;
+	height:700px;
+	margin-left:auto;
+	margin-right:auto;
+	border-style:double;
+	border-width:2em;
+	border-radius:1.5em;
+}
+
+div.tableauprincipaux{
+	background-color:rgba(15,191,44,0.8);
+	width:80%;
+	height:950px;
+	margin-left:auto;
+	margin-right:auto;
+	border-style:double;
+	border-width:2em;
+	border-radius:1.5em;
+}
+
+div.tableaudesserts{
+	background-color:rgba(15,191,44,0.8);
+	width:80%;
+	height:700px;
+	margin-left:auto;
+	margin-right:auto;
+	border-style:double;
+	border-width:2em;
+	border-radius:1.5em;
+}
+
+table#table1{
+	
+	padding-top:50px;
+	padding-left:180px;
+	padding-bottom:50px;
+}
+table#table2{
+	
+	padding-top:50px;
+	padding-left:180px;
+	padding-bottom:50px;
+}
+table#table3{
+	
+	padding-top:50px;
+	padding-left:180px;
+	padding-bottom:50px;
+}
+
+td{
+	border:4px solid black;
+	border-radius:2em;
+	overflow:hidden;
+	padding:0;
+	margin:0;
+	
+}
+
+td.images{
+	background-color:white;
+}
+	
+
+img{
+	padding:0;
+	margin:0;
+}
+
+
+
+td.prix{
+	padding-right:20px;
+	text-align:center;
+	padding-left:20px;
+}
+
+table{
+	text-align:center;
+}
