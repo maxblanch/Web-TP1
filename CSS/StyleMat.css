@@ -87,6 +87,7 @@ nav {
 .header-menu li:hover {
   text-shadow: 0.5px 0.5px 5px white, -0.5px -0.5px 5px white;
   border-bottom: 1px solid white;
+ 
 }
 
 #logo {
