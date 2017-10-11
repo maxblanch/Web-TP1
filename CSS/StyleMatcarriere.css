@@ -31,6 +31,7 @@ body{
 	padding:0;
 	width:100%;
 	height:100%;
+	font-family:Lato;
 	
 	
 }
@@ -46,15 +47,15 @@ a {
 
 
 .header {
-  height: 75vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background:url(../Images/Food/menuheader2.jpg);
+  background:url(../Images/People/patate.png);
   background-position: center;
-  background-size: cover;
-  box-shadow: 0px -12px 15px 21px rgba(0,0,0,0.75);
+  background-repeat:no-repeat;
+  
   
 }
 
@@ -75,6 +76,7 @@ nav {
   width: 100%;
   background-color: rgba(0,0,0,0.8);
   box-shadow: 0px -12px 15px 21px rgba(0,0,0,0.75);
+ 
 }
 
 .header-menu li{
@@ -92,3 +94,124 @@ nav {
 #logo {
   margin: 0.5em 2em !important;
 }
+
+.maintitle{
+	margin-bottom:100px;
+}
+
+div#pararecruit{
+	text-align:center;
+	margin-top:80px;
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	border-bottom:solid grey 1px;
+}
+
+h1#nousembauchons{
+	width:10%;
+	margin-bottom:250px;
+	background-color:green;
+	font-size:3em;
+}
+
+h1#join{
+	font-size:3.5em;
+}
+
+p{
+line-height:2em;
+}
+
+div#formscontainer{
+	background-color:#333333;
+	width:55%;
+	height:800px;
+	margin-left:100px;
+	margin-top:50px;
+	float:left;
+	 box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.75);
+	
+}
+
+div#postescontainer{
+	background-color:#FFA500;
+	width:30%;
+	height:350px;
+	margin-top:50px;
+	float:left;
+	text-align:center;
+	box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.75);
+	
+}
+
+div#forms{
+	display:block;
+	color:white;
+	font-size:1em;
+	margin-left:50px;
+	margin-top:50px;
+	margin-bottom:200px;
+}
+
+label{
+	display:block;
+	margin-top:75px;
+}
+
+textarea{
+	display:block;
+	margin-top:5px;
+	width:50%;
+	height:300 px;
+
+	
+}
+
+input{
+	height:40px;
+	width:50%;
+}
+
+p#CV{
+	margin-top:30px;
+}
+
+.button:hover{
+	background-color:#FFA500;
+	color:white;
+}
+	
+/* ---------------------
+-----footer -----
+----------------------*/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #333333;
+  height: 400px;
+  width: 100%;
+  bottom: 0;
+  z-index: -999;
+  margin-top:200px;
+  clear:left;
+  float:left;
+}
+
+.bottom-menu {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  width: 60%;
+}
+
+.bottom-menu li{
+  margin: 0 0.5em;
+  font-size: 0.75em
+}
+
+
+	
