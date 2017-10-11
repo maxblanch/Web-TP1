@@ -2,15 +2,108 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Titre du restaurant</title>
+    <title>Carrière</title>
     <meta name="description" content="Restaurant Indien - Commande en ligne - Créé par Mathieu Renaud et Maxime Blanchard">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="CSS/normalize.css">
-    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/StyleMatcarriere.css">
 </head>
+
 <body>
 
+	<form action="serveur.php" method="post">
 
+		<div class="container">
+			<div class="header">
+				<nav>
+					<ul class="header-menu">
+					   <li><a href="lesplats.html">Les plats</a></li>
+					   <li><a href="commandez.html">Commandez</a></li>
+					   <li><a href="contact.html">Nous rejoindre</a></li>
+					   <li id="logo"><a href="../default.html"><img class="main-logo"  src="../Images/Icon/Taj-Mahal-Transparent-PNG.png"></a></li>
+					   <li><a href="trickcss.html">Trick CSS</a></li>
+					   <li><a href="temoignages.html">Témoignages</a></li>
+					   <li><a href="carriere.html">Carrière</a></li>
+					</ul>
+				</nav>
+			
+		
+	  
+						<div class="main-title">
+				
+							<h1 id="nousembauchons">Nous Embauchons!!</h1>
+						
+						</div>									
+			</div>
+		</div>
+		
+		<div id="pararecruit">
+			
+			<h1 id="join">Joins-toi à l'équipe Taj Wallace!!!</h1>
+				
+				<p>Chez Taj Wallace, notre raison d'être est de mijoter des plats indiens 
+				de qualité qui sont le plus fidèle à la culture indienne possible dans une 
+				ambiance chaleureuse et décontractée. Le respect de la tradition indienne est 
+				de grande importance pour nous.</p>
+				<br>
+				<p>Nous Sommes axés sur le client et sa satisfaction est notre objectif. Nous 
+				continuons d'évoluer grâce à nos employés de talent, passionés par la cuisine
+				et la culture indienne.</p>
+				<br>
+				<p>Si vous ressentez une affinité avec l’éthique de travail du Taj Wallace, nous voulons vous rencontrer!</p>
+		
+		
+		</div>
+		
+		<div id="formscontainer">
+			<div id="forms">
+				<label for="name">Votre nom</label>
+				<input class="inputs" type="text"></input>
+				<label for="Courriel">Votre courriel</label>
+				<input class="inputs" type="email"></input>
+				<label for="motivation">Qu'est-ce qui vous motive à travailler au Taj wallace?
+				<textarea name="motivation" rows="8" cols="50"></textarea>
+				<label for="poste">Emploi recherché</label>
+				<select name="poste">
+					<option>Cuisinier</option>
+					<option>Serveur</option>
+					<option>Pilote de drône</option>
+					<option>Gérant</option>
+					<option>Plongeur</option>
+				</select>
+				
+				<p id="CV">Telechargement de votre C.V</p>
+				<input class="inputs" type="file" name="CV"></input>
+				<input class="button"type="submit" value="Envoyer">
+				
+			
+			
+			</div>
+		</div>
+		<div id="postescontainer">
+			<div id="postes">
+				<h1>Nous cherchons</h1>
+					<p>Gérant</p>
+					<p>Plongeur</p>
+					<p>Cuisinier</p>
+					<p>Pilote de drône</p>
+					<p>Serveur</p>
+			
+			
+			</div>
+		</div>
+		
+	<footer>
+    <a href="../default.html"><img class="main-logo"  src="../Images/Icon/Taj-Mahal-Transparent-PNG.png"></a>
+    <ul class="bottom-menu">
+      <li><a href="lesplats.html">Les plats</a></li>
+      <li><a href="commandez.html">Commandez</a></li>
+      <li><a href="contact.html">Nous rejoindre</a></li>
+      <li><a href="trickcss.html">Trick CSS</a></li>
+      <li><a href="temoignages.html">Témoignages</a></li>
+      <li><a href="carriere.html">Carrière</a></li>
+    </ul>
+  </footer>
 
 </body>
 </html>
