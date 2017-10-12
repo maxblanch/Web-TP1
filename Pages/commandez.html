@@ -1,16 +1,101 @@
 <!doctype html>
 <html>
-<head>
+  <head>
     <meta charset="UTF-8">
-    <title>Titre du restaurant</title>
+    <title>Taj Wallace</title>
     <meta name="description" content="Restaurant Indien - Commande en ligne - Créé par Mathieu Renaud et Maxime Blanchard">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.iconmonstr.com/1.2.0/css/iconmonstr-iconic-font.min.css">
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
     <link rel="stylesheet" type="text/css" href="CSS/normalize.css">
-    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
-</head>
+    <link rel="stylesheet" type="text/css" href="../CSS/styles.css">
+  </head>
 <body>
+  <header class="header background2">
+    <nav>
+      <ul class="header-menu">
+        <li><a href="../Pages/lesplats.html">Les plats</a></li>
+        <li><a href="../Pages/commandez.html">Commandez</a></li>
+        <li><a href="../Pages/contact.html">Nous rejoindre</a></li>
+        <li id="logo"><a href="../Default.html"><img class="main-logo"  src="../Images/Icon/Taj-Mahal-Transparent-PNG.png"></a></li>
+        <li><a href="../Pages/trickcss.html">Trick CSS</a></li>
+        <li><a href="../Pages/temoignages.html">Témoignages</a></li>
+        <li><a href="../Pages/carriere.html">Carrière</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <div class="temoignages-header">
+    <h1>Commandez</h1>
+    <h3>Choisissez, commandez, dégustez</h3>
+    <p><em>C'est le seul et unique restaurant indien permettant de faire une livraison d'un aspect mondial, et vous serez toujours servi dans un délai de trente minutes. C'est garanti, sinon argent remis.</em></p>
+    <p id="main-quote-name">- Wallace Sinatra</p>
+    <span><a href="#section-commandez"><i class="im im-angle-down arrow-down"></i></a></span>
+  </div>
+<!-- Form--------------------------------------------->
+  <form action="commandes.php">
+    <h1 id="form-main-title">Commandez en Ligne</h1>
+    <fieldset>
+      <legend class="form-title">1. C'est quoi qu'on mange ?</legend>
+      <label for="food_entree">Les Entrées</label>
+      <select id="food_entree" name="food_entree">
+        <option value="none_entree">Choisisez une entrées</option>
+        <option value="seekh_kebab">Seekh-Kebab 11$</option>
+        <option value="panner_pakora">Panner pakora 9$</option>
+      </select>
+      <label for="food_plat_principaux">Les Plats Principaux</label>
+      <select id="food_plat_principaux" name="food_plat_principaux">
+        <option value="none_plat">Choisisez un plat principale</option>
+        <option value="poulet_beurre">Poulet au Beurre - 17$</option>
+        <option value="poulet_tandoori">Poulet Tandoori - 19$</option>
+        <option value="prawn_biryani">Prawn Biryani - 18$</option>
+      </select>
+      <label for="food_desserts">Les Desserts</label>
+      <select id="food_desserts" name="food_desserts">
+        <option value="none_dessert">Choisisez un dessert</option>
+        <option value="rasmalai">Rasmalai - 6$</option>
+        <option value="gulab_jamun">Gulab-Jamun - 7$</option>
+      </select>
+    </fieldset>
 
+    <fieldset>
+      <legend class="form-title">2. Où envoyons-nous la commande ?</legend>
+      <label for="nom">Nom:</label>
+      <input type="text" id="nom" name="user_nom">
+
+      <label for="mail">Email:</label>
+      <input type="email" id="mail" name="user_email">
+
+      <label for="adresse">Adresse:</label>
+      <textarea name="user_adresse" id="adresse" rows="3" cols="80"></textarea>
+      <div class="payer-btn">
+        <input type="submit" name="send_info" value="Payer" class="voirmenu-btn btn-form">
+        <input type="reset" name="reset_info" value="Réinitialiser le formulaire" class="voirmenu-btn btn-form">
+      </div>
+    </fieldset>
+  </form>
+
+  <div class="center-content">
+    <a href="../Default.html" class="voirmenu-btn">Page d'accueil</a>
+  </div>
+
+<!-- Footer ------------------------------------------>
+    <footer>
+      <div class="facebook">
+        <a href="#"><img class="main-logo"  src="../Images/Icon/Taj-Mahal-Transparent-PNG.png"></a><br>
+        <span>Suivez-nous sur Facebook</span><br>
+        <span><a href="http://www.facebook.com/india" target="_blank"><i id="facebook-logo" class="im im-facebook"></i></a></span>
+      </div>
+      <ul class="bottom-menu">
+        <li><a href="Pages/lesplats.html">Les plats</a></li>
+        <li><a href="Pages/commandez.html">Commandez</a></li>
+        <li><a href="Pages/contact.html">Nous rejoindre</a></li>
+        <li><a href="Pages/trickcss.html">Trick CSS</a></li>
+        <li><a href="Pages/temoignages.html">Témoignages</a></li>
+        <li><a href="Pages/carriere.html">Carrières</a></li>
+      </ul>
+    </footer>
 
 </body>
 </html>

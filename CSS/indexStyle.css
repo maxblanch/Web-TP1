@@ -24,20 +24,19 @@ a {
    grid-template-rows: 1fr 1fr;
    width: 100%;
    height: 100%;
-   z-index: 1;
- }
+}
 
  .btn-solid {
    background-color: #FFA500;
- }
+}
 
  .btn-clear {
    color: #FFA500;
- }
+}
 
  #clear-bg {
    background-color: rgba(0, 0, 0, 0.4);
- }
+}
 
  .btn {
    flex-grow: 1;
@@ -45,14 +44,26 @@ a {
    margin: 0 5px;
    border: 1px solid #FFA500;
    border-radius: 4px;
- }
+   box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.5);
+   transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #FFC400;
+  box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.5);
+  border: 1px solid #FFC400;
+}
+
+#clear-bg:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
 
  .button-menu {
    display: flex;
    justify-content: center;
    width: 35%;
    text-align: center;
- }
+}
 
 /* ---------------------
 ---------Header---------
@@ -119,8 +130,13 @@ nav {
 }
 
 .arrow-down {
-  color: white;
+  color: #FFA500;
   font-size: 3em;
+  transition: all 0.3s ease;
+}
+
+.arrow-down:hover {
+  color: #FFC400;
 }
 
 .down-arrow {
@@ -150,7 +166,17 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: #333333;
+  border-radius: 0.5em;
+  color: white;
+  box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.3);
+  transition: all 0.3s ease;
 }
+
+.texte1:hover {
+  box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.3);
+}
+
 .texte1 h4{
   font-weight: 300;
 }
@@ -178,10 +204,17 @@ nav {
 }
 
 .cmd-section-btn {
-  padding: 1em 3em;
+  padding: 1em 4em;
   background-color: #FFA500;
   align-self: flex-start;
   border-radius: 4px;
+  box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);
+  transition: all 0.3s ease;
+}
+
+.cmd-section-btn:hover {
+  background-color: #FFC400;
+  box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.15);
 }
 
 /* ---------------------
@@ -224,15 +257,15 @@ nav {
 
 .image1 {
   max-width: 100%;
-  min-height: 100%
+  min-height: 100%;
 }
 
 .grow {
-  transition: all .2s ease-in-out;
+  transition: all .2s ease;
 }
 
 .grow:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .voirmenu-btn {
@@ -244,8 +277,14 @@ nav {
   color: #1C1C1C;
   font-weight: 400;
   color: white;
+  box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);
+  transition: all 0.3s ease;
 }
 
+.voirmenu-btn:hover {
+  background-color: #FFC400;
+  box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.15);
+}
 /* ---------------------
 -------Équipe-----------
 ----------------------*/
@@ -262,11 +301,16 @@ nav {
   border-radius: 5px;
   height: 50vh;
   color: white;
-  box-shadow: 0px 0px 8px black;
   font-weight: 300;
   display: grid;
   grid-template-rows: 1fr 1fr 2fr;
   padding: 5em 2.5em;
+  box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.3);
+  transition: all 0.3s ease;
+}
+
+.grid1:hover {
+  box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.3);
 }
 
 .people-photo {
@@ -298,10 +342,29 @@ footer {
   align-items: center;
   justify-content: space-around;
   background-color: #333333;
-  height: 400px;
+  height: 250px;
   width: 100%;
   bottom: 0;
-  z-index: -999;
+}
+
+.facebook {
+  text-align: center;
+  color: white;
+}
+
+.facebook span {
+  padding: 0.5em 0;
+  display: inline-block;
+}
+
+#facebook-logo {
+  box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);
+  transition: all 0.3s ease;
+}
+
+#facebook-logo:hover {
+  color: #FFC400;
+  box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.15);
 }
 
 .bottom-menu {
@@ -313,5 +376,10 @@ footer {
 
 .bottom-menu li{
   margin: 0 0.5em;
-  font-size: 0.75em
+  font-size: 0.75em;
+  transition: all 0.3s ease;
+}
+
+.bottom-menu li:hover {
+  text-shadow: 0.5px 0.5px 1px white, -0.5px -0.5px 1px white;
 }
