@@ -16,12 +16,12 @@
       <nav>
         <ul class="header-menu">
           <li><a href="Pages/lesplats.html">Les plats</a></li>
-          <li><a href="#">Commandez</a></li>
-          <li><a href="#">Nous rejoindre</a></li>
+          <li><a href="Pages/commandez.html">Commandez</a></li>
+          <li><a href="Pages/contact.html">Nous rejoindre</a></li>
           <li id="logo"><a href="#"><img class="main-logo"  src="Images/Icon/Taj-Mahal-Transparent-PNG.png"></a></li>
-          <li><a href="#">Trick CSS</a></li>
-          <li><a href="#">Témoignages</a></li>
-          <li><a href="#">Carrière</a></li>
+          <li><a href="Pages/trickcss.html">Trick CSS</a></li>
+          <li><a href="Pages/temoignages.html">Témoignages</a></li>
+          <li><a href="Pages/carriere.html">Carrière</a></li>
         </ul>
       </nav>
       <div class="main-title">
@@ -29,31 +29,31 @@
         <span>L'authentique cuisine indienne - Livré par drones</span>
       </div>
       <div class="button-menu">
-        <span class="btn btn-solid"><a href="#">Commandez</a></span>
-        <span id="clear-bg" class="btn"><a href="#" class="btn-clear">Voir menu</a></span>
+        <a href="Pages/commandez.html" class="btn btn-solid"><span>Commandez</span></a>
+        <a href="Pages/lesplats.html" id="clear-bg" class="btn"><span>Voir menu</span></a>
       </div>
       <div class="down-arrow">
-        <span><a href="#"><i class="im im-angle-down arrow-down"></i></a></span>
+        <span><a href="#section-commandez"><i class="im im-angle-down arrow-down"></i></a></span>
       </div>
     </div>
   </div>
 
 <!-- Première Section - Commandes --------------------------->
-  <section class="section-commandez">
+  <section class="section-commandez" id="section-commandez">
     <div class="section1 texte1">
-      <h4><em>La cuisine indienne, par voie aérienne</em></h4>
+      <h4><em>http://www.tajwallace.com - 14,99$/an</em></h4>
       <h2>- Commandez<br>- Recevez<br>- Dégustez</h2>
       <p>Fondé en 2017, Taj Wallace devient le premier restaurant indien à livrer à l'aide de drones, la plus délicieuse nourriture dans tout le continent. De plus, vous recevez votre commande dans un délai maximum de trente minutes garanti, ou argent remis.</p>
-      <span class="cmd-section-btn">
-        <a id="cmd-section-btn" href="#">Commandez</a>
-      </span>
+      <a href="Pages/commandez.html" id="cmd-section-btn" class="cmd-section-btn">
+        <span>Commandez</span>
+      </a>
     </div>
-    <div class="section1 photo1">
+      <div class="section1 photo1">
     </div>
   </section>
 
     <!-- Deuxième section - Gallerie Photos ------------------->
-  <section class="setion-gallerie">
+  <section class="setion-gallerie" id="toggle-galerie">
     <div class="wrapper">
       <h1 class="gallerie-titre">Notre Cuisine</h1>
       <h3 class="gallerie-soustitre">Découvrez les saveurs de l'Inde préparé avec amour par le chef Wallace</h3>
@@ -67,7 +67,9 @@
         <img src="Images/Food/prawn-biryani.jpg" alt="" class="image1 grow">
         <img src="Images/Food/seekh-kebab-sawadee.jpg" alt="" class="image1 grow">
       </div>
-      <div class="voirmenu-btn">Voir le Menu</div>
+      <a href="Pages/lesplats.html" class="voirmenu-btn">
+        <div >Voir le Menu</div>
+      </a>
     </div>
   </section>
 
@@ -103,7 +105,7 @@
             <img src="Images/People/mat-photo.jpg" class="people-photo">
           </div>
           <div class="content">
-            <h4>Stagiare</h4>
+            <h4>Stagiaire</h4>
             <p>Mathieu a toujours eu Wallace comme idole dans sa vie. Enfin, il réalise son rêve et devienet stagiare chez Taj Wallace.</p>
           </div>
         </div>
@@ -113,25 +115,31 @@
             <img src="Images/People/max-photo.jpg" class="people-photo">
           </div>
           <div class="content">
-            <h4>Stagiare</h4>
+            <h4>Stagiaire</h4>
             <p>Ne sachant plus trop quoi faire de sa vie, Maxime décide d'entreprendre une carrière en cuisine hindi.</p>
           </div>
         </div>
       </div>
-      <div class="voirmenu-btn">Carrières</div>
+      <a href="Pages/carriere.html" class="voirmenu-btn">
+        <div>Carrières</div>
+      </a>
     </div>
   </section>
 
 <!-- Footer ------------------------------------------>
   <footer>
-    <a href="#"><img class="main-logo"  src="Images/Icon/Taj-Mahal-Transparent-PNG.png"></a>
+    <div class="facebook">
+      <a href="#"><img class="main-logo"  src="Images/Icon/Taj-Mahal-Transparent-PNG.png"></a><br>
+      <span>Suivez-nous sur Facebook</span><br>
+      <span><a href="http://www.facebook.com/india" target="_blank"><i id="facebook-logo" class="im im-facebook"></i></a></span>
+    </div>
     <ul class="bottom-menu">
-      <li><a href="#">Les plats</a></li>
-      <li><a href="#">Commandez</a></li>
-      <li><a href="#">Nous rejoindre</a></li>
-      <li><a href="#">Trick CSS</a></li>
-      <li><a href="#">Témoignages</a></li>
-      <li><a href="#">Carrière</a></li>
+      <li><a href="Pages/lesplats.html">Les plats</a></li>
+      <li><a href="Pages/commandez.html">Commandez</a></li>
+      <li><a href="Pages/contact.html">Nous rejoindre</a></li>
+      <li><a href="Pages/trickcss.html">Trick CSS</a></li>
+      <li><a href="Pages/temoignages.html">Témoignages</a></li>
+      <li><a href="Pages/carriere.html">Carrières</a></li>
     </ul>
   </footer>
 </body>

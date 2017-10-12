@@ -1,14 +1,78 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Titre du restaurant</title>
-    <meta name="description" content="Restaurant Indien - Commande en ligne - Créé par Mathieu Renaud et Maxime Blanchard">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="CSS/normalize.css">
-    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+  <meta charset="UTF-8">
+  <title>Taj Wallace</title>
+  <meta name="description" content="Restaurant Indien - Commande en ligne - Créé par Mathieu Renaud et Maxime Blanchard">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.iconmonstr.com/1.2.0/css/iconmonstr-iconic-font.min.css">
+  <link rel="stylesheet" type="text/css" href="CSS/normalize.css">
+  <link rel="stylesheet" type="text/css" href="../CSS/styles.css">
 </head>
 <body>
+  <header class="header background3">
+    <nav>
+      <ul class="header-menu">
+        <li><a href="../Pages/lesplats.html">Les plats</a></li>
+        <li><a href="../Pages/commandez.html">Commandez</a></li>
+        <li><a href="../Pages/contact.html">Nous rejoindre</a></li>
+        <li id="logo"><a href="../Default.html"><img class="main-logo"  src="../Images/Icon/Taj-Mahal-Transparent-PNG.png"></a></li>
+        <li><a href="../Pages/trickcss.html">Trick CSS</a></li>
+        <li><a href="../Pages/temoignages.html">Témoignages</a></li>
+        <li><a href="../Pages/carriere.html">Carrière</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="temoignages-header">
+    <h1>Trick CSS</h1>
+    <h3>Les CSS Grids</h3>
+    <p><em>Le module CSS Grid layout (modèle de disposition en grille) est un module de la spécification CSS qui permet de créer des mises en page en divisant l'espace d'affichage en régions utilisables par une application ou en définissant des relations de taille, position et d'empilement entre les éléments HTML.»</em></p>
+    <p id="main-quote-name">Voir la page accueil et témoignages</p>
+    <span><a href="#toggle-arrow"><i class="im im-angle-down arrow-down"></i></a></span>
+  </div>
+
+  <div id="toggle-arrow" class="container-trickcss">
+    <h2>Les principales propriétés</h2>
+    <ul>
+      <li>display: grid</li>
+      <li>grid-template-columns</li>
+      <li>grid-template-rows</li>
+      <li>grid-gap</li>
+      <li>attribut: repeat(auto-fit, minmax(280px, 1fr));</li>
+    </ul>
+    <div class="btn-trickcss">
+      <a href="../Default.html#toggle-galerie" class="voirmenu-btn">Ex. Page d'accueil</a>
+      <a href="temoignages.html#toggle-arrow" class="voirmenu-btn">Ex. Page Témoignages</a>
+    </div>
+  </div>
+
+  </div>
+  <div class="main-content-trickcss">
+    <img src="../Images/grid-template-areas.png" alt="">
+  </div>
+
+  <div class="center-content">
+    <a href="../Default.html" class="voirmenu-btn">Page d'accueil</a>
+  </div>
+
+  <!-- Footer ------------------------------------------>
+      <footer>
+        <div class="facebook">
+          <a href="#"><img class="main-logo"  src="../Images/Icon/Taj-Mahal-Transparent-PNG.png"></a><br>
+          <span>Suivez-nous sur Facebook</span><br>
+          <span><a href="http://www.facebook.com/india" target="_blank"><i id="facebook-logo" class="im im-facebook"></i></a></span>
+        </div>
+        <ul class="bottom-menu">
+          <li><a href="Pages/lesplats.html">Les plats</a></li>
+          <li><a href="Pages/commandez.html">Commandez</a></li>
+          <li><a href="Pages/contact.html">Nous rejoindre</a></li>
+          <li><a href="Pages/trickcss.html">Trick CSS</a></li>
+          <li><a href="Pages/temoignages.html">Témoignages</a></li>
+          <li><a href="Pages/carriere.html">Carrières</a></li>
+        </ul>
+      </footer>
 
 
 
