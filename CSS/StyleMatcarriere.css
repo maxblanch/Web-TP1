@@ -126,11 +126,12 @@ line-height:2em;
 div#formscontainer{
 	background-color:#333333;
 	width:55%;
-	height:800px;
+	height:1000px;
 	margin-left:100px;
 	margin-top:50px;
 	float:left;
 	 box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.75);
+	margin-bottom:100px;
 	
 }
 
@@ -142,6 +143,8 @@ div#postescontainer{
 	float:left;
 	text-align:center;
 	box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.75);
+	margin-bottom:600px;
+	font-size: 1.5em;
 	
 }
 
@@ -151,7 +154,8 @@ div#forms{
 	font-size:1em;
 	margin-left:50px;
 	margin-top:50px;
-	margin-bottom:200px;
+
+	margin-bottom:100px;
 }
 
 label{
@@ -177,6 +181,10 @@ p#CV{
 	margin-top:30px;
 }
 
+.button{
+	margin:10px;
+}
+
 .button:hover{
 	background-color:#FFA500;
 	color:white;
@@ -195,10 +203,28 @@ footer {
   height: 250px;
   width: 100%;
   bottom: 0;
-  z-index: -999;
-  margin-top:200px;
+  margin-top:100px;
   clear:left;
-  float:left;
+}
+
+.facebook {
+  text-align: center;
+  color: white;
+}
+
+.facebook span {
+  padding: 0.5em 0;
+  display: inline-block;
+}
+
+#facebook-logo {
+  box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);
+  transition: all 0.3s ease;
+}
+
+#facebook-logo:hover {
+  color: #FFC400;
+  box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.15);
 }
 
 .bottom-menu {
@@ -210,8 +236,12 @@ footer {
 
 .bottom-menu li{
   margin: 0 0.5em;
-  font-size: 0.75em
+  font-size: 0.75em;
+  transition: all 0.3s ease;
 }
 
+.bottom-menu li:hover {
+  text-shadow: 0.5px 0.5px 1px white, -0.5px -0.5px 1px white;
+}
 
 	

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="../CSS/normalize.css">
     <link rel="stylesheet" type="text/css" href="../CSS/StyleMatcarriere.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.iconmonstr.com/1.2.0/css/iconmonstr-iconic-font.min.css">
 </head>
 
 <body>
@@ -58,23 +59,27 @@
 		<div id="formscontainer">
 			<div id="forms">
 				<label for="name">Votre nom</label>
-				<input class="inputs" type="text"></input>
+				<input class="inputs" type="text" name="name"></input>
 				<label for="Courriel">Votre courriel</label>
-				<input class="inputs" type="email"></input>
+				<input class="inputs" type="email" name="Courriel"></input>
+				<label for="tel">Votre numéro de téléphone</label>
+				<input class="inputs" type="text" name="tel"></input>
 				<label for="motivation">Qu'est-ce qui vous motive à travailler au Taj wallace?
 				<textarea name="motivation" rows="8" cols="50"></textarea>
 				<label for="poste">Emploi recherché</label>
 				<select name="poste">
 					<option>Cuisinier</option>
-					<option>Serveur</option>
-					<option>Pilote de drône</option>
-					<option>Gérant</option>
-					<option>Plongeur</option>
+					
+					<option>Pilote de drônes</option>
+					
+					<option>Réparateur de drônes</option>
 				</select>
 				
 				<p id="CV">Telechargement de votre C.V</p>
 				<input class="inputs" type="file" name="CV"></input>
+				<input class="button" type="reset" value="Recommencer">
 				<input class="button"type="submit" value="Envoyer">
+				
 				
 			
 			
@@ -83,19 +88,22 @@
 		<div id="postescontainer">
 			<div id="postes">
 				<h1>Nous cherchons</h1>
-					<p>Gérant</p>
-					<p>Plongeur</p>
+					
 					<p>Cuisinier</p>
-					<p>Pilote de drône</p>
-					<p>Serveur</p>
+					<p>Pilote de drônes</p>
+					<p>Réparateur de drônes</p>
 			
 			
 			</div>
 		</div>
 		
 	<footer>
-    <a href="../default.html"><img class="main-logo"  src="../Images/Icon/Taj-Mahal-Transparent-PNG.png"></a>
-    <ul class="bottom-menu">
+      <div class="facebook">
+        <a href="#"><img class="main-logo"  src="../Images/Icon/Taj-Mahal-Transparent-PNG.png"></a><br>
+        <span>Suivez-nous sur Facebook</span><br>
+        <span><a href="http://www.facebook.com/india" target="_blank"><i id="facebook-logo" class="im im-facebook"></i></a></span>
+      </div>
+	<ul class="bottom-menu">
       <li><a href="lesplats.html">Les plats</a></li>
       <li><a href="commandez.html">Commandez</a></li>
       <li><a href="contact.html">Nous rejoindre</a></li>

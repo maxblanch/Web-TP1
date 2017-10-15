@@ -47,7 +47,7 @@ a {
 
 
 .header {
-  height: 75vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -96,10 +96,10 @@ nav {
 
 h1#nousrejoindre{
 	font-size:5em;
-	margin-top:100px;
+	margin-top:25px;
 	text-align:center;
 	font-family:kaushan;
-	color:#FFA500;
+	color:black;
 	
 }
 
@@ -109,7 +109,7 @@ div#fondcontact{
 	background-color:#333333;
 	width:100%;
 	height:700px;
-	margin-top:100px;
+	margin-top:150px;
 	margin-left:auto;
 	margin-right:auto;
 	box-shadow: 0px 0px 8px black;
@@ -217,11 +217,13 @@ p{
 div#links{
 	text-align:center;
 	margin-top:40px;
+	margin-bottom:100px;
 }
 
 ul#liens li{
 	display:inline;
 	padding:50px;
+	margin-bottom:100px;
 }
 
 
@@ -239,8 +241,26 @@ footer {
   height: 250px;
   width: 100%;
   bottom: 0;
-  z-index: -999;
-  margin-top:200px;
+}
+
+.facebook {
+  text-align: center;
+  color: white;
+}
+
+.facebook span {
+  padding: 0.5em 0;
+  display: inline-block;
+}
+
+#facebook-logo {
+  box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);
+  transition: all 0.3s ease;
+}
+
+#facebook-logo:hover {
+  color: #FFC400;
+  box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.15);
 }
 
 .bottom-menu {
@@ -252,5 +272,10 @@ footer {
 
 .bottom-menu li{
   margin: 0 0.5em;
-  font-size: 0.75em
+  font-size: 0.75em;
+  transition: all 0.3s ease;
+}
+
+.bottom-menu li:hover {
+  text-shadow: 0.5px 0.5px 1px white, -0.5px -0.5px 1px white;
 }
