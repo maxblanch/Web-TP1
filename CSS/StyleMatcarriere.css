@@ -3,37 +3,24 @@
 ----------------------*/
 
 * {
-  
-    margin:0;
+
+  margin:0;
 	padding:0;
-    box-sizing: border-box;
-	
-	
-	
-	
+  box-sizing: border-box;
 }
 
 @font-face{
 	font-family:kaushan;
 	src: url(fonts/KaushanScript-Regular.ttf);
-	
-
-	
 }
-
-@font-face{
-	font-family:Lato;
-	src:url(fonts/Lato-Regular.ttf);
-}
-
 body{
 	margin:0;
 	padding:0;
 	width:100%;
 	height:100%;
 	font-family:Lato;
-	
-	
+
+
 }
 
 a {
@@ -55,8 +42,8 @@ a {
   background:url(../Images/People/patate.png);
   background-position: center;
   background-repeat:no-repeat;
-  
-  
+
+
 }
 
 nav {
@@ -76,7 +63,7 @@ nav {
   width: 100%;
   background-color: rgba(0,0,0,0.8);
   box-shadow: 0px -12px 15px 21px rgba(0,0,0,0.75);
- 
+
 }
 
 .header-menu li{
@@ -84,6 +71,7 @@ nav {
   font-weight: lighter;
   font-size: 1.1em;
   font-family:lato !important;
+  transition: all 0.3s ease;
 }
 
 .header-menu li:hover {
@@ -132,7 +120,7 @@ div#formscontainer{
 	float:left;
 	 box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.75);
 	margin-bottom:100px;
-	
+
 }
 
 div#postescontainer{
@@ -145,7 +133,7 @@ div#postescontainer{
 	box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.75);
 	margin-bottom:600px;
 	font-size: 1.5em;
-	
+
 }
 
 div#forms{
@@ -169,7 +157,7 @@ textarea{
 	width:50%;
 	height:300 px;
 
-	
+
 }
 
 input{
@@ -189,7 +177,31 @@ p#CV{
 	background-color:#FFA500;
 	color:white;
 }
-	
+
+.center-content {
+  text-align: center;
+  clear: both;
+}
+
+.voirmenu-btn {
+  margin: 3em auto;
+  padding: 1em 5em;
+  background-color: #FFA500;
+  border-radius: 4px;
+  display: inline-block;
+  color: #1C1C1C;
+  font-weight: 400;
+  color: white;
+  box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);
+  transition: all 0.3s ease;
+}
+
+.voirmenu-btn:hover {
+  background-color: #FFC400;
+  box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.15);
+}
+
+
 /* ---------------------
 -----footer -----
 ----------------------*/
@@ -243,5 +255,3 @@ footer {
 .bottom-menu li:hover {
   text-shadow: 0.5px 0.5px 1px white, -0.5px -0.5px 1px white;
 }
-
-	

@@ -104,6 +104,7 @@ nav {
   margin: 2em 2em;
   font-weight: 300;
   font-size: 1.1em;
+  transition: all 0.3s ease;
 }
 
 .header-menu li:hover {
@@ -228,7 +229,7 @@ nav {
 .wrapper {
   text-align: center;
   width: 80%;
-  margin: 8em auto 0;
+  margin: 10% auto 0;
 }
 
 .gallerie-titre {
@@ -250,22 +251,11 @@ nav {
   margin-top: 3em;
   height: 50%;
   width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
 }
 
 .image1 {
-  max-width: 100%;
-  min-height: 100%;
-}
-
-.grow {
-  transition: all .2s ease;
-}
-
-.grow:hover {
-  transform: scale(1.1);
+  width: 300px;
+  height: 250px;
 }
 
 .voirmenu-btn {
